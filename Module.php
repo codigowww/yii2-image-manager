@@ -1,6 +1,6 @@
 <?php
 
-namespace noam148\imagemanager;
+namespace codigowww\imagemanager;
 
 use Yii;
 use yii\base\UnknownClassException;
