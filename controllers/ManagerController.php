@@ -1,11 +1,11 @@
 <?php
 
-namespace noam148\imagemanager\controllers;
+namespace codigowww\imagemanager\controllers;
 
 use Yii;
-use noam148\imagemanager\models\ImageManager;
-use noam148\imagemanager\models\ImageManagerSearch;
-use noam148\imagemanager\assets\ImageManagerModuleAsset;
+use codigowww\imagemanager\models\ImageManager;
+use codigowww\imagemanager\models\ImageManagerSearch;
+use codigowww\imagemanager\assets\ImageManagerModuleAsset;
 use yii\web\Response;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -18,7 +18,7 @@ use yii\imagine\Image;
 use Imagine\Image\Box;
 use Imagine\Image\Palette\RGB;
 use Imagine\Image\Point;
-use noam148\imagemanager\Module;
+use codigowww\imagemanager\Module;
 
 /**
  * Manager controller for the `imagemanager` module

@@ -100,13 +100,13 @@ $this->title = Yii::t('imagemanager', 'Image manager');
                 <div class="thumbnail">
                     <img src="#">
                 </div>
-                <div class="edit-buttons">
+                <div class="edit-buttons d-none">
                     <a href="#" class="btn btn-primary btn-block crop-image-item">
                         <i class="fa fa-crop"></i>
                         <span class="hidden-xs"><?= Yii::t('imagemanager', 'Crop') ?></span>
                     </a>
                 </div>
-                <div class="details">
+                <div class="details d-none">
                     <div class="fileName"></div>
                     <div class="created"></div>
                     <div class="fileSize"></div>

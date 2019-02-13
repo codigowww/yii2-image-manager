@@ -167,6 +167,7 @@ var imageManagerModule = {
 				//else set data
 				}else{
 					//set text elements
+					$("#module-imagemanager .image-info .details").removeClass('d-none');
 					$("#module-imagemanager .image-info .fileName").text(responseData.fileName).attr("title",responseData.fileName);
 					$("#module-imagemanager .image-info .created").text(responseData.created);
 					$("#module-imagemanager .image-info .fileSize").text(responseData.fileSize);
