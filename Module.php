@@ -57,7 +57,7 @@ class Module extends \yii\base\Module {
 			Yii::$app->i18n->translations['imagemanager'] = [
 				'class' => 'yii\i18n\PhpMessageSource',
 				'sourceLanguage' => 'en',
-				'basePath' => '@noam148/imagemanager/messages'
+				'basePath' => '@codigowww/imagemanager/messages'
 			];
 		}
 		//check extensions
@@ -67,7 +67,7 @@ class Module extends \yii\base\Module {
 			throw new InvalidConfigException("Component param 'mediaPath' need to be set to a location");
 		}
 		//set asset path
-		$this->assetPublishedUrl = (new AssetManager)->getPublishedUrl("@vendor/noam148/yii2-image-manager/assets/source");
+		$this->assetPublishedUrl = (new AssetManager)->getPublishedUrl("@vendor/codigowww/yii2-image-manager/assets/source");
 
 		// Check if the canRemoveImage variable is callable
 		if (is_callable($this->canRemoveImage)) {
